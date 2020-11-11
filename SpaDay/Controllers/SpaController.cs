@@ -39,7 +39,7 @@ namespace SpaDay.Controllers
         }
 
         [HttpPost]
-        [Route("/spa")]
+        [Route("/spa/profile")]
         public IActionResult Menu(string name, string skintype, string manipedi)
         {
             ViewBag.Name = name;
